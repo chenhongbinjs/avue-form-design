@@ -34,9 +34,9 @@ $ npm i @smallwei/avue
 ### 组件
 
 ```sh
-$ npm i @sscfaith/avue-form-design
+$ npm i @chenhongbinjs/avue-form-design
 或
-$ yarn add @sscfaith/avue-form-design
+$ yarn add @chenhongbinjs/avue-form-design
 ```
 
 ### 源码
@@ -56,7 +56,7 @@ $ yarn serve
 ## 使用
 
 ```
-import AvueFormDesign from '@sscfaith/avue-form-design'
+import AvueFormDesign from '@chenhongbinjs/avue-form-design'
 
 Vue.use(AvueFormDesign)
 ```

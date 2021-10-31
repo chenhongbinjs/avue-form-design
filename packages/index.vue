@@ -433,7 +433,7 @@ export default {
   },
   mounted() {
     this.handleLoadStorage()
-    this.handleLoadCss()
+    // this.handleLoadCss()
   },
   methods: {
     // 组件初始化时加载本地存储中的options(需开启storage),若不存在则读取用户配置的options
@@ -471,15 +471,16 @@ export default {
 
     },
     // 加载icon
-    handleLoadCss() {
+    /*handleLoadCss() {
       const head = document.getElementsByTagName('head')[0]
       const script = document.createElement('link')
       script.rel = 'stylesheet'
       script.type = 'text/css'
       script.href = 'https://at.alicdn.com/t/font_1254447_zc9iezc230c.css'
+      // script.href = '/assets/fonts/font_1254447_zc9iezc230c.css'
       head.appendChild(script)
       // this.loadScript('css', 'https://at.alicdn.com/t/font_1254447_zc9iezc230c.css')
-    },
+    },*/
     // Avue文档链接
     handleAvueDoc() {
       window.open('https://avuejs.com/doc/form/form-doc', '_blank')
@@ -772,6 +773,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scope>
+<style lang="scss">
+@import './assets/fonts/font_1254447_zc9iezc230c.css';
 @import './styles/index.scss';
 </style>
