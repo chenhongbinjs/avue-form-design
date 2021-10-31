@@ -1,10 +1,6 @@
 {
-  "name": "@sscfaith/avue-form-design",
-  "author": {
-    "name": "SSC",
-    "url": "https://github.com/sscfaith",
-    "email": "273702440@qq.com"
-  },
+  "name": "@chenhongbinjs/avue-form-design",
+  "author": "SSC <273702440@qq.com> (https://github.com/sscfaith)",
   "version": "1.4.8",
   "main": "lib/index.umd.min.js",
   "scripts": {
@@ -36,7 +32,7 @@
   ],
   "repository": {
     "type": "github",
-    "url": "https://github.com/sscfaith/avue-form-design"
+    "url": "git+https://github.com/sscfaith/avue-form-design.git"
   },
   "keywords": [
     "vue",
@@ -72,5 +68,13 @@
     "> 1%",
     "last 2 versions"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "description": "本项目是一款基于 <a href=\"https://avuejs.com/\" target=\"_blank\">Avue</a> 的表单设计器，拖拽式操作让你快速构建一个表单。",
+  "bugs": {
+    "url": "https://github.com/sscfaith/avue-form-design/issues"
+  },
+  "homepage": "https://github.com/sscfaith/avue-form-design#readme",
+  "directories": {
+    "example": "examples"
+  }
 }

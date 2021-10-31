@@ -772,6 +772,6 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scope>
 @import './styles/index.scss';
 </style>
