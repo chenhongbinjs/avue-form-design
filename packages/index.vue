@@ -773,7 +773,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scope>
+<style lang="scss" scoped>
 @import './assets/fonts/font_1254447_zc9iezc230c.css';
 @import './styles/index.scss';
 </style>

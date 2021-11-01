@@ -2,7 +2,7 @@ $primary-color: #409eff;
 $primary-active-color: #ecf5ff;
 $primary-background-color: #ecf8ff;
 
-*,
+::v-deep *,
 :after,
 :before {
   -webkit-box-sizing: border-box;
@@ -23,7 +23,7 @@ body {
   height: 100%;
 }
 
-.form-designer {
+::v-deep.form-designer {
   height: 100%;
   background: #fff;
   outline: 1px solid #e4e7ed;
@@ -605,7 +605,7 @@ body {
   }
 }
 
-.drawer-foot {
+::v-deep.drawer-foot {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -626,18 +626,18 @@ body {
   }
 }
 
-.preview-form {
+::v-deep.preview-form {
   overflow-y: scroll;
   height: 83vh;
 }
 
-.popper-bo {
+::v-deep.popper-bo {
   .el-alert {
     margin-bottom: 10px;
   }
 }
 
-.el-drawer__wrapper {
+::v-deep.el-drawer__wrapper {
   :focus {
     outline: 0;
   }
