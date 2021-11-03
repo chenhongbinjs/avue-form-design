@@ -1,7 +1,7 @@
 {
-  "name": "@chenhongbinjs/avue-form-design",
+  "name": "@secs/avue-form-design",
   "author": "SSC <273702440@qq.com> (https://github.com/sscfaith)",
-  "version": "1.4.14",
+  "version": "1.0.3",
   "main": "lib/index.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -25,7 +25,8 @@
     "eslint-plugin-vue": "^6.2.2",
     "sass": "^1.39.0",
     "sass-loader": "^7.3.1",
-    "vue-template-compiler": "^2.6.14"
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.61.0"
   },
   "files": [
     "lib"
@@ -75,6 +76,7 @@
   },
   "homepage": "https://github.com/sscfaith/avue-form-design#readme",
   "directories": {
-    "example": "examples"
+    "example": "examples",
+    "lib": "lib"
   }
 }

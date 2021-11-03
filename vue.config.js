@@ -2,7 +2,7 @@ const path = require('path');
 function resolve (dir) {
     return path.join(__dirname, dir)
 }
-
+const webpack = require("webpack");
 module.exports = {
   transpileDependencies: ['avue-plugin-ueditor'],
 
@@ -11,8 +11,14 @@ module.exports = {
   configureWebpack: {
     output: {
       libraryExport: 'default'
-    }
-  },
+    },
+    plugins: [
+      // 限制只打一个包，不分Chunk
+      new webpack.optimize.LimitChunkCountPlugin({
+        maxChunks: 1
+      })
+    ],
+},
 
   chainWebpack: (config) => {
     config.externals({
